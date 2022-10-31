@@ -28,6 +28,10 @@ The labs are in the form of a complete step-by-step tutorial that you need to fo
 ####  Part A
 
 * Follow the next video on how to perform this task. The video will show you how to connect to the Google Cloud Platform, redeem your coupon and configure an SQL server.
+* Firstly, watch the following video on how to configure MySQL on the GCP.  
+
+[![Watch the video](https://i.ytimg.com/vi/jWkeFjfrCxQ/hqdefault.jpg)](https://youtu.be/o8ys7Qt8h5w)
+
 * Please make sure you complete **Part A** before you proceed further.
 
 #### Part B
@@ -44,6 +48,12 @@ $ gcloud config set project <PROJECT_ID>
 
 >  Enter a new password when prompted.
 >  :rotating_light: Do not expect to see any characters on the screen! 
+
+Then, connect to the SQL server using the next command.
+
+```shell
+$ gcloud sql connect <SQL-SERVER> --user=root
+```
 
 3. Let us run some basic commands and learn how to use the MySQL command line interface (CLI).
 4. List the databases that are already created.
