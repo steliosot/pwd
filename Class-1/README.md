@@ -30,7 +30,7 @@ The labs are in the form of a complete step-by-step tutorial that you need to fo
 * Follow the next video on how to perform this task. The video will show you how to connect to the Google Cloud Platform, redeem your coupon and configure an SQ server.
 * Firstly, watch the following video on how to configure MySQL on the GCP.  
 
-[![Watch the video](https://i.ytimg.com/vi/jWkeFjfrCxQ/hqdefault.jpg)](https://youtu.be/o8ys7Qt8h5w)
+[![Watch the video](https://i.ytimg.com/vi/jWkeFjfrCxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=jWkeFjfrCxQ)
 
 * Please make sure you complete **Part A** before you proceed further.
 
