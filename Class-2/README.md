@@ -27,7 +27,7 @@ The labs are in the form of a complete step-by-step tutorial that you need to fo
 
 ####  Running the commands on the GCP
 
-**To run this tutorial, you should start your MySQL server on the GCP. **
+**To run this tutorial, you should start your MySQL server on the GCP** 
 
 1. First, you must set up your command line to the current project id.
 
