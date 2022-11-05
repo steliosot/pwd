@@ -40,7 +40,7 @@ $ gcloud config set project <PROJECT_ID>
 >  Enter a new password when prompted.
 >  :rotating_light: Do not expect to see any characters on the screen! 
 
-Then, connect to the SQL server using the next command.
+Then, connect to the SQL server using the next command, by replacing `<SQL-SERVER>` with your server.
 
 ```shell
 $ gcloud sql connect <SQL-SERVER> --user=root
