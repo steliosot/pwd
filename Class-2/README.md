@@ -4,26 +4,6 @@
 
 Today's lab session is essential to have a solid start in this module. Make sure you complete all the tasks before the next class.
 
-Lab 1 part 1 focuses on how to:
-
-**Part A**    Connect to the Google Cloud Platform and start the SQL server.
-
-**Part B**    Learn the advanced SQL commands.
-
-
-
-#### How to best approach the tutorials?
-
-The labs are in the form of a complete step-by-step tutorial that you need to follow.
-
-- Do not just copy and paste the commands but try to understand the steps by typing in the commands.
-
-- Do not worry if you don't remember everything after the first class; we will have the opportunity to work with these commands repeatedly in the next ten weeks.
-
-- I suggest you create an online logbook (e.g., a GitHub page) to keep notes of the essential commands.
-
-- Do not be afraid to try the commands again and again or even adapt them and get used to them. Commands that could be potentially harmful (for example, delete data etc.) will be highlighted during this lab.
-
 
 ####  Running the commands on the GCP
 
@@ -243,7 +223,7 @@ INSERT INTO actors VALUES
 ('A4','Sarah Paulson',46,'F','C4');
 ```
 
-18. This command will fail!
+18. This command will fail :rotating_light:
 
 * Did you find the error?
 
@@ -422,10 +402,9 @@ WHERE cities.city_population>4000000 AND actors.city_id=cities.city_id;
 
 ```mysql
 SELECT actors.actor_gender,COUNT(actors.actor_gender) AS counter_gender
-  FROM actors,cities 
-  WHERE cities.city_population>1000000 AND actors.city_id=cities.city_id 
-  GROUP BY actors.actor_gender;
-
+FROM actors,cities 
+WHERE cities.city_population>1000000 AND actors.city_id=cities.city_id 
+GROUP BY actors.actor_gender;
 ```
 
 28. Well done :clap: , you completed the MySQL tutorial.
