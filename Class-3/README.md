@@ -659,7 +659,7 @@ AND
 enrollments.enrol_semester= 'Autumn'
 
 GROUP BY
-professors.professor_fname,professors.professor_snaame,enrollments.enrol_semester;
+professors.professor_fname,professors.professor_sname,enrollments.enrol_semester;
 
 +-----------------+-----------------+----------------+--------------------+
 | professor_fname | professor_sname | enrol_semester | Number of students |
