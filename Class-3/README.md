@@ -341,8 +341,7 @@ modules.module_id = enrollments.module_id;
 4 rows in set (0.11 sec)
 ```
 
-22. Which actors born in Toronto?
-    * Let us select the `city_name`, `city_country` of cities table and the `actor_name` of ` actors` table for actors born in Toronto.
+22. What are the modules that `S1` is enrolled to?
 
 ```mysql
 SELECT students.student_fname, students.student_sname, modules.module_title 
