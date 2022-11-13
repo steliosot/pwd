@@ -81,7 +81,7 @@ def create_server_connection(host_name, user_name, user_password):
 
     return connection
 
-host = "35.188.10.54" # Add here your host IP address from the GCP
+host = "IP_ADDRESS" # Add here your host IP address from the GCP
 user = "root"
 password = "1234" # Add here your password
 
@@ -112,7 +112,7 @@ def create_db_connection(host_name, user_name, user_password, db_name):
 
 """6. Now time to connect to the `music_db`. Make sure you adjust `host` and `password` one more time."""
 
-host = "35.188.10.54"
+host = "IP_ADDRESS"
 user = "root"
 password = "1234"  
 database = "music_db"
