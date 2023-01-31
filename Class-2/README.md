@@ -64,7 +64,7 @@ mysql> USE movies_db;
 Database changed
 ```
 
-7. Create a new table called actors, following the following data and specification.
+7. Create a new table called **cities**, following the following data and specification.
 
    a. The table looks like this:
 
