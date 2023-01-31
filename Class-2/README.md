@@ -107,7 +107,7 @@ mysql> SHOW TABLES;
 1 row in set (0.11 sec)
 ```
 
-10. Run the `DESCRIBE actors` command.
+10. Run the `DESCRIBE cities` command.
 
 ```shell
 mysql> DESCRIBE cities;
